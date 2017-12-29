@@ -1,0 +1,14 @@
+1) > ( I am in the root)
+2) cd rails_apps (change directory)
+3) git clone repo.git
+4) cd repo
+4a) git pull
+5) bundle
+6) rails db:migrate RAILS_ENV=production
+7) rails assets:precompile RAILS_ENV=production
+8) rails assets:clean RAILS_ENV=production
+9) cd ..
+10) cd /etc/nginx/sites-enable/
+11) cp railssite.conf
+12) sudo service nginx restart
+
